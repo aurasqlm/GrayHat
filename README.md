@@ -62,7 +62,7 @@ Want to run this locally? Follow these steps:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/your-username/grayhat.git](https://github.com/your-username/grayhat.git)
+    git clone [https://github.com/aurasqlm/grayhat.git](https://github.com/your-username/grayhat.git)
     ```
 
 2.  **Navigate to the project directory**
@@ -98,6 +98,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 <div align="center">
-  <p>Created by <a href="https://github.com/your-username">Sajid Mahmud Sayan</a></p>
+  <p>Created by <a href="https://github.com/aurasqlm">Sajid Mahmud Sayan</a></p>
   <p>© 2026 GrayHat. All rights reserved.</p>
 </div>
