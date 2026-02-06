@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K68GB8S9');</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-80HLJKZV0V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-80HLJKZV0V');
+</script>
+    <meta name="theme-color" content="#000000">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Mistakes | GrayHat</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/icon/icon.png" type="image/x-icon">
+
+    <meta property="og:image" content="https://grayhat.pages.dev/assets/icon/icon.png">
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K68GB8S9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><img src="assets/icon/icon.png" alt="GrayHat" style="height: 30px; vertical-align: middle; margin-right: 8px; border-radius: 4px;">GrayHat<span style="color:var(--color-text);">.</span></a>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="learn.html">Learn Safety</a></li>
+                <li><a href="mistakes.html" class="active">Mistakes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="section" style="padding-top: var(--spacing-xl); padding-bottom: var(--spacing-lg);">
+        <div class="container">
+            <h1>Safe vs <span style="color: var(--color-danger);">Unsafe</span></h1>
+            <p style="color: var(--color-text-muted);">Compare common user behaviors and learn what to avoid.</p>
+        </div>
+    </header>
+
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            <div class="grid" style="gap: var(--spacing-xl);">
+
+                <!-- Comparison 1 -->
+                <div>
+                    <h3 style="margin-bottom: var(--spacing-md); text-align: center;">Scenario: Suspicious Email
+                        Attachment</h3>
+                    <div class="grid grid-3" style="grid-template-columns: 1fr 1fr;">
+                        <!-- Safe -->
+                        <div class="card" style="border-top: 4px solid var(--color-accent);">
+                            <div style="color: var(--color-accent); font-size: 2rem; margin-bottom: 0.5rem;">✓ SAFE
+                            </div>
+                            <h4>Scan & Verify</h4>
+                            <p style="color: var(--color-text-muted);">
+                                You notice the sender is unknown. You hover over the link, see it's weird, and delete
+                                the email immediately. You scan your PC just in case.
+                            </p>
+                        </div>
+                        <!-- Unsafe -->
+                        <div class="card" style="border-top: 4px solid var(--color-danger);">
+                            <div style="color: var(--color-danger); font-size: 2rem; margin-bottom: 0.5rem;">✕ UNSAFE
+                            </div>
+                            <h4>Curiosity Click</h4>
+                            <p style="color: var(--color-text-muted);">
+                                "Invoice_FINAL.pdf.exe"? Sounds important! You download and open it. Ransomware
+                                instantly encrypts your files.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comparison 2 -->
+                <div>
+                    <h3 style="margin-bottom: var(--spacing-md); text-align: center;">Scenario: Coffee Shop Wi-Fi</h3>
+                    <div class="grid grid-3" style="grid-template-columns: 1fr 1fr;">
+                        <!-- Safe -->
+                        <div class="card" style="border-top: 4px solid var(--color-accent);">
+                            <div style="color: var(--color-accent); font-size: 2rem; margin-bottom: 0.5rem;">✓ SAFE
+                            </div>
+                            <h4>VPN Encrypted</h4>
+                            <p style="color: var(--color-text-muted);">
+                                You connect to "Free Coffee WiFi" but immediately turn on your VPN. Your traffic is
+                                encrypted and invisible to sniffers.
+                            </p>
+                        </div>
+                        <!-- Unsafe -->
+                        <div class="card" style="border-top: 4px solid var(--color-danger);">
+                            <div style="color: var(--color-danger); font-size: 2rem; margin-bottom: 0.5rem;">✕ UNSAFE
+                            </div>
+                            <h4>Exposed Login</h4>
+                            <p style="color: var(--color-text-muted);">
+                                You log into your bank account on open Wi-Fi. An attacker on the same network intercepts
+                                your session cookie.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comparison 3 -->
+                <div>
+                    <h3 style="margin-bottom: var(--spacing-md); text-align: center;">Scenario: Creating an Account</h3>
+                    <div class="grid grid-3" style="grid-template-columns: 1fr 1fr;">
+                        <!-- Safe -->
+                        <div class="card" style="border-top: 4px solid var(--color-accent);">
+                            <div style="color: var(--color-accent); font-size: 2rem; margin-bottom: 0.5rem;">✓ SAFE
+                            </div>
+                            <h4>Unique & Random</h4>
+                            <p style="color: var(--color-text-muted);">
+                                You use a password manager to generating a 24-char string. You enable 2FA with an
+                                authenticator app.
+                            </p>
+                        </div>
+                        <!-- Unsafe -->
+                        <div class="card" style="border-top: 4px solid var(--color-danger);">
+                            <div style="color: var(--color-danger); font-size: 2rem; margin-bottom: 0.5rem;">✕ UNSAFE
+                            </div>
+                            <h4>Recycled Password</h4>
+                            <p style="color: var(--color-text-muted);">
+                                You use "Fido123" because it's your password for everything. When Adobe gets hacked,
+                                your bank is next.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- New Scenarios (Expansion) -->
+            <div
+                style="margin-top: var(--spacing-xl); padding-top: var(--spacing-lg); border-top: 1px solid var(--color-border);">
+                <h2 style="text-align: center; margin-bottom: var(--spacing-lg);">More Security Pitfalls</h2>
+                <div class="grid grid-3">
+
+                    <!-- Mistake 4 -->
+                    <div class="card reveal" style="border-left: 4px solid var(--color-danger);">
+                        <span class="badge badge-danger">Unsafe</span>
+                        <h3 style="margin: 1rem 0;">Reusing Passwords</h3>
+                        <p>Using "Password123" across all sites creates a domino effect.</p>
+                        <div style="margin-top: 1rem; color: var(--color-primary); font-size: 0.9rem;">Fix: Unique
+                            Passwords + Manager</div>
+                    </div>
+
+                    <!-- Mistake 5 -->
+                    <div class="card reveal" style="border-left: 4px solid var(--color-danger);">
+                        <span class="badge badge-danger">Unsafe</span>
+                        <h3 style="margin: 1rem 0;">Skipping Updates</h3>
+                        <p>Running outdated software with known CVEs.</p>
+                        <div style="margin-top: 1rem; color: var(--color-primary); font-size: 0.9rem;">Fix: Auto-Updates
+                            ON</div>
+                    </div>
+
+                    <!-- Mistake 6 -->
+                    <div class="card reveal" style="border-left: 4px solid var(--color-danger);">
+                        <span class="badge badge-danger">Unsafe</span>
+                        <h3 style="margin: 1rem 0;">Ignoring 2FA</h3>
+                        <p>Relying solely on passwords is unsafe.</p>
+                        <div style="margin-top: 1rem; color: var(--color-primary); font-size: 0.9rem;">Fix: Enable
+                            TOTP/YubiKey</div>
+                    </div>
+
+                    <!-- Mistake 7 -->
+                    <div class="card reveal" style="border-left: 4px solid var(--color-danger);">
+                        <span class="badge badge-danger">Unsafe</span>
+                        <h3 style="margin: 1rem 0;">Clicking SMS Links</h3>
+                        <p>Smishing attacks are rising. "Delivery Failed" links are traps.</p>
+                        <div style="margin-top: 1rem; color: var(--color-primary); font-size: 0.9rem;">Fix: Verify via
+                            Official App</div>
+                    </div>
+
+                    <!-- Mistake 8 -->
+                    <div class="card reveal" style="border-left: 4px solid var(--color-danger);">
+                        <span class="badge badge-danger">Unsafe</span>
+                        <h3 style="margin: 1rem 0;">Found USB Drives</h3>
+                        <p>Plugging in random USBs leads to BadUSB attacks.</p>
+                        <div style="margin-top: 1rem; color: var(--color-primary); font-size: 0.9rem;">Fix:
+                            Destroy/Report it</div>
+                    </div>
+
+                    <!-- Mistake 9 -->
+                    <div class="card reveal" style="border-left: 4px solid var(--color-danger);">
+                        <span class="badge badge-danger">Unsafe</span>
+                        <h3 style="margin: 1rem 0;">Public Wi-Fi Banking</h3>
+                        <p>Logging into banks on unencrypted cafe Wi-Fi.</p>
+                        <div style="margin-top: 1rem; color: var(--color-primary); font-size: 0.9rem;">Fix: Use VPN
+                        </div>
+                    </div>
+
+                    <!-- Mistake 10 -->
+                    <div class="card reveal" style="border-left: 4px solid var(--color-danger);">
+                        <span class="badge badge-danger">Unsafe</span>
+                        <h3 style="margin: 1rem 0;">Leaving Devices Unlocked</h3>
+                        <p>Walking away from your laptop at a coffee shop.</p>
+                        <div style="margin-top: 1rem; color: var(--color-primary); font-size: 0.9rem;">Fix: Win+L / Lock
+                            Screen</div>
+                    </div>
+
+                    <!-- Mistake 11 -->
+                    <div class="card reveal" style="border-left: 4px solid var(--color-danger);">
+                        <span class="badge badge-danger">Unsafe</span>
+                        <h3 style="margin: 1rem 0;">Posting Travel Plans</h3>
+                        <p>Announcing you are away from home on public social media.</p>
+                        <div style="margin-top: 1rem; color: var(--color-primary); font-size: 0.9rem;">Fix: Post after
+                            returning</div>
+                    </div>
+
+                    <!-- Mistake 12 -->
+                    <div class="card reveal" style="border-left: 4px solid var(--color-danger);">
+                        <span class="badge badge-danger">Unsafe</span>
+                        <h3 style="margin: 1rem 0;">Default Router Passwords</h3>
+                        <p>Leaving "admin/admin" on your home router.</p>
+                        <div style="margin-top: 1rem; color: var(--color-primary); font-size: 0.9rem;">Fix: Change
+                            immediately</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="grid grid-3" style="margin-bottom: var(--spacing-lg);">
+                <div>
+                    <a href="index.html" class="logo"
+                        style="margin-bottom: var(--spacing-sm); display: block;">GrayHat.</a>
+                    <p style="color: var(--color-text-muted); font-size: 0.9rem;">
+                        Educating users on ethical cybersecurity practices. Stay safe, stay legal.
+                    </p>
+                </div>
+                <div>
+                    <h4 style="font-size: 1.1rem;">Quick Links</h4>
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem;">
+                        <li><a href="about.html" style="color: var(--color-text-muted);">About Us</a></li>
+                        <li><a href="contact.html" style="color: var(--color-text-muted);">Report a Threat</a></li>
+                        <li><a href="mistakes.html" style="color: var(--color-text-muted);">Unsafe Practices</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="font-size: 1.1rem;">Legal</h4>
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem;">
+                        <li><a href="privacy.html" style="color: var(--color-text-muted);">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html" style="color: var(--color-text-muted);">Terms of Service</a>
+                        </li>
+                        <li><a href="terms-of-use.html" style="color: var(--color-text-muted);">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="border-top: 1px solid var(--color-border); padding-top: var(--spacing-md); text-align: center; color: var(--color-text-muted); font-size: 0.85rem;">
+                &copy; <span id="year">2026</span> GrayHat. All rights reserved. Do not use this information for
+                illegal purposes.
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/cookie-consent.js"></script>
+</body>
+
+</html>
